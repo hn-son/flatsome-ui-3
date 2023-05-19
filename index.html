@@ -1,0 +1,1051 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+      integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./styles/glider.min.css" />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.min.js"
+      integrity="sha512-1/RvZTcCDEUjY/CypiMz+iqqtaoQfAITmNSJY17Myp4Ms5mdxPS5UV7iOfdZoxcGhzFbOm6sntTKJppjvuhg4g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Happy Ninja</title>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="header-wrapper">
+          <input type="checkbox" id="nav-control" class="nav-control" />
+          <label for="nav-control" class="menu-sidebar"
+            ><i class="fa-solid fa-bars"></i
+          ></label>
+          <div class="nav-custom"><label for="nav-control"></label></div>
+          <div class="nav-sidebar">
+            <div class="sidebar-search">
+              <input type="text" placeholder="Search" />
+              <button><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <div class="nav-menu">
+              <ul>
+                <li>
+                  <span>demos</span>
+                  <button class="accordion-nav">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </button>
+                  <ul>
+                    <li class="title">
+                      shop demos
+                      <ul>
+                        <li>Classic shop</li>
+                        <li>Simple Slider</li>
+                        <li>Fullscreen Fushion</li>
+                        <li>Video cover</li>
+                        <li>Slider cover</li>
+                        <li>Grid style 1</li>
+                        <li>Grid style 2</li>
+                        <li>Grid style 3</li>
+                      </ul>
+                    </li>
+                    <li class="title">
+                      more shop demos
+                      <ul>
+                        <li>Mega Shop</li>
+                        <li>Cute Shop</li>
+                        <li>Sport shop</li>
+                        <li>Vendor shop</li>
+                        <li>Parallax shop</li>
+                        <li>Big sale</li>
+                        <li>Sale cowndown</li>
+                      </ul>
+                    </li>
+                    <li class="title">
+                      bussiness demos
+                      <ul>
+                        <li>Agency</li>
+                        <li>Corporate</li>
+                        <li>Freelancer</li>
+                        <li>Explore</li>
+                        <li>Free style</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <span>features</span>
+                  <button class="accordion-nav">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </button>
+                  <ul>
+                    <li class="title">
+                      features
+                      <ul>
+                        <li>Core futures</li>
+                        <li>What's new</li>
+                        <li>UX builder</li>
+                        <li>Header Designer</li>
+                        <li>Flatsome studio</li>
+                        <li>Fast performance</li>
+                        <li>Parallax scrolling</li>
+                        <li>Single page navigation</li>
+                      </ul>
+                    </li>
+                    <li class="title">
+                      more
+                      <ul>
+                        <li>Blog feature</li>
+                        <li>Portfolio features</li>
+                        <li>Blocck elements</li>
+                        <li>Videos & docs</li>
+                        <li>Customer reviews</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <span>shop</span>
+                  <button class="accordion-nav">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </button>
+                  <ul>
+                    <li>WooCommerce</li>
+                  </ul>
+                </li>
+                <li>
+                  <span>pages</span>
+                  <button class="accordion-nav">
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </button>
+                  <ul>
+                    <li>Portfolio</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Our stores</li>
+                    <li>MAintantce</li>
+                  </ul>
+                </li>
+                <li>
+                  <span>blog</span>
+                </li>
+                <li>
+                  <span>elements</span>
+                </li>
+                <li>
+                  <span>login</span>
+                </li>
+                <li>
+                  <span><i class="fa-solid fa-envelope"></i> newsletter</span>
+                </li>
+                <li>
+                  <i class="fa-brands fa-facebook-f"></i>
+                  <i class="fa-brands fa-instagram"></i>
+                  <i class="fa-brands fa-twitter"></i>
+                  <i class="fa-solid fa-envelope"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="img-logo">
+            <img src="./assets/images/logo.png" alt="" />
+          </div>
+          <div class="menu-nav">
+            <ul class="menu">
+              <li>
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <ul class="nav-dropdown">
+                  <li class="header-search">
+                    <div class="search">
+                      <input type="text" placeholder="Search" />
+                      <button>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                      </button>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                demos <i class="fa-solid fa-chevron-down"></i>
+                <ul class="nav-dropdown demos">
+                  <li class="nav-dropdown-item">
+                    <div class="title">shop demos</div>
+                    <ul>
+                      <li>Classic shop</li>
+                      <li>Simple slider</li>
+                      <li>Fullscreen fashion</li>
+                      <li>Video cover</li>
+                      <li>Slider cover</li>
+                      <li>Grid style 1</li>
+                      <li>Grid style 2</li>
+                      <li>Grid style 3</li>
+                    </ul>
+                  </li>
+                  <li class="nav-dropdown-item">
+                    <div class="title">more shop demos</div>
+                    <ul>
+                      <li>Mega shop</li>
+                      <li>Cute shop</li>
+                      <li>Sport shop</li>
+                      <li>Vendor shop</li>
+                      <li>Paralax shop</li>
+                      <li>Big sale</li>
+                      <li>Sale Coutdown</li>
+                    </ul>
+                  </li>
+                  <li class="nav-dropdown-item">
+                    <div class="title">business demos</div>
+                    <ul>
+                      <li>Agency</li>
+                      <li>Corporate</li>
+                      <li>Freelancer</li>
+                      <li>Explore</li>
+                      <li>Life style</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                features <i class="fa-solid fa-chevron-down"></i>
+                <ul class="nav-dropdown">
+                  <li class="nav-dropdown-item">
+                    <div class="title">features</div>
+                    <ul>
+                      <li>Core futures</li>
+                      <li>What's new <span class="new">new</span></li>
+                      <li>UX Builder <span class="popular">popular</span></li>
+                      <li>
+                        Header Designer <span class="popular">popular</span>
+                      </li>
+                      <li>Flatsome Studio <span class="new">new</span></li>
+                      <li>Fast Performance</li>
+                      <li>Paralax Scrolling</li>
+                      <li>Single Page Navigation</li>
+                      <li>Sticky Sections</li>
+                      <li>Getting Started</li>
+                      <li>Footer Features</li>
+                    </ul>
+                  </li>
+                  <li class="nav-dropdown-item">
+                    <div class="title">more</div>
+                    <ul>
+                      <li>Blog Features</li>
+                      <li>Postfolio Features</li>
+                      <li>Blocks Element</li>
+                      <li>Videos & Docs</li>
+                      <li>Customer Reviews <span class="hot">hot</span></li>
+                      <li>Elements Overview</li>
+                      <li class="nav-dropdown-item">
+                        <div class="title">woocommerce</div>
+                        <ul>
+                          <li>Category Features</li>
+                          <li>Product Features</li>
+                          <li>Catalogue Mode</li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <div class="custom-img">
+                    <img src="./assets/images/custom-image-1.jpg" alt="" />
+                  </div>
+                </ul>
+              </li>
+              <li>
+                shop <i class="fa-solid fa-chevron-down"></i>
+                <ul class="nav-dropdown">
+                  <li class="nav-dropdown-item">
+                    <div class="title">category page</div>
+                    <ul>
+                      <li>Overview</li>
+                      <li>Off-canvas Filtering</li>
+                      <li>Full Width Layout</li>
+                      <li>List Layout</li>
+                      <li>Masonry layout</li>
+                      <li>Top Content</li>
+                      <li>Transparent Header</li>
+                      <li>Dark style</li>
+                    </ul>
+                  </li>
+                  <li class="nav-dropdown-item">
+                    <div class="title">product page</div>
+                    <ul>
+                      <li>Overview</li>
+                      <li>Left Column</li>
+                      <li>Right Column</li>
+                      <li>Full Width Gallery</li>
+                      <li>Vertical Gallery</li>
+                      <li>Variations</li>
+                      <li>Transperent Header</li>
+                      <li>Affiliate</li>
+                    </ul>
+                  </li>
+                  <li class="nav-dropdown-item">
+                    <div class="title">more..</div>
+                    <ul>
+                      <li>Accordion style</li>
+                      <li>Section style</li>
+                      <li>Vertical tabs</li>
+                      <li>Drak style</li>
+                      <li>Image zoom</li>
+                      <li>Catalogue Mode</li>
+                      <li>Product Example</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                pages <i class="fa-solid fa-chevron-down"></i>
+                <ul class="nav-dropdown">
+                  <li class="nav-dropdown-item" style="width: 100%">
+                    <ul>
+                      <li>Portfolio</li>
+                      <li>About</li>
+                      <li>Contact</li>
+                      <li>Our store</li>
+                      <li>Maintance</li>
+                      <li>Page layout</li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li>blog</li>
+              <li>elements</li>
+            </ul>
+          </div>
+          <div class="cart">
+            <div class="login">
+              <span>login</span>
+            </div>
+            <div class="header-divider"></div>
+            <div class="cart-item">
+              <span>cart/ $0.00</span>
+              <span class="image-icon"><strong>0</strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="container main-wrapper">
+        <div class="product-detail">
+          <div class="product-image">
+            <div
+              id="carouselExampleControls"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="./assets/images/hoodie_4_front-768x768.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="./assets/images/hoodie_4_back.jpg"
+                    class="d-block w-100"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleControls"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <div class="gallery">
+              <div class="image">
+                <img src="./assets/images/hoodie_4_front-768x768.jpg" alt="" />
+              </div>
+              <div class="image">
+                <img src="./assets//images/hoodie_4_back.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="product-info">
+            <div class="breadcrumb-box">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item"><a href="#">SHOP</a></li>
+                  <li class="breadcrumb-item"><a href="#">CLOTHING</a></li>
+                  <li class="breadcrumb-item"><a href="#">HOODIES</a></li>
+                </ol>
+              </nav>
+            </div>
+            <div class="name"><span>Happy Ninja</span></div>
+            <div class="divider"></div>
+            <div class="price">
+              <span><sup>$</sup>32,00</span>
+            </div>
+            <div class="desc">
+              <span
+                >Pellentesque habitant morbi tristique senectus et netus et
+                malesuada fames ac turpis egestas. Vestibulum tortor quam,
+                feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
+                libero sit amet quam egestas semper. Aenean ultricies mi vitae
+                est. Mauris placerat eleifend leo.</span
+              >
+            </div>
+            <div class="add-cart">
+              <div class="count">
+                <button onclick="decreaseValue()">-</button>
+                <input
+                  type="number"
+                  id="number"
+                  value="0"
+                  inputmode="numeric"
+                />
+                <button onclick="increaseValue()">+</button>
+              </div>
+              <div class="add">
+                <button>add to cart</button>
+              </div>
+            </div>
+            <div class="social">
+              <span>Categories: Clothing, Hoodies</span>
+              <div class="social-icons">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-regular fa-envelope"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="desc-review">
+          <div class="tabs">
+            <button
+              class="tab-link active-tab"
+              onclick="switchTab(event, 'desc')"
+            >
+              description
+            </button>
+            <button class="tab-link" onclick="switchTab(event, 'review')">
+              review <span>(0)</span>
+            </button>
+          </div>
+          <div id="desc" class="tab-content active-tab">
+            Pellentesque habitant morbi tristique senectus et netus et malesuada
+            fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae,
+            ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam
+            egestas semper. Aenean ultricies mi vitae est. Mauris placerat
+            eleifend leo.
+          </div>
+          <div id="review" class="tab-content">
+            <span class="title">Reviews</span>
+            There are no reviews yet.
+            <div class="box">
+              <span class="box-title"
+                >Be the first to review "Happy Ninja"</span
+              >
+              <span>You must be logged in to post a review.</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="products-related">
+          <span class="title">related products</span>
+          <div class="list-products">
+            <div class="glider-contain">
+              <div class="glider">
+                <div class="product-card">
+                  <div class="product-image">
+                    <a href="#">
+                      <img
+                        src="./assets/images/hoodie_5_front-494x593.jpg"
+                        class="img-front"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/hoodie_5_back-494x593.jpg"
+                        class="img-back"
+                        alt=""
+                      />
+                      <div class="quick-view">quick view</div>
+                    </a>
+                  </div>
+                  <div class="product-infor">
+                    <span class="type">clothing</span>
+                    <span class="name">Ninja Shihoute</span>
+                    <span class="price">$35,00</span>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <div class="product-image">
+                    <a href="#">
+                      <img
+                        src="./assets/images/hoodie_5_front-494x593.jpg"
+                        class="img-front"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/hoodie_5_back-494x593.jpg"
+                        class="img-back"
+                        alt=""
+                      />
+                      <div class="quick-view">quick view</div>
+                    </a>
+                  </div>
+                  <div class="product-infor">
+                    <span class="type">clothing</span>
+                    <span class="name">Ninja Shihoute</span>
+                    <span class="price">$35,00</span>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <div class="product-image">
+                    <a href="#">
+                      <img
+                        src="./assets/images/hoodie_5_front-494x593.jpg"
+                        class="img-front"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/hoodie_5_back-494x593.jpg"
+                        class="img-back"
+                        alt=""
+                      />
+                      <div class="quick-view">quick view</div>
+                    </a>
+                  </div>
+                  <div class="product-infor">
+                    <span class="type">clothing</span>
+                    <span class="name">Ninja Shihoute</span>
+                    <span class="price">$35,00</span>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <div class="product-image">
+                    <a href="#">
+                      <img
+                        src="./assets/images/hoodie_5_front-494x593.jpg"
+                        class="img-front"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/hoodie_5_back-494x593.jpg"
+                        class="img-back"
+                        alt=""
+                      />
+                      <div class="quick-view">quick view</div>
+                    </a>
+                  </div>
+                  <div class="product-infor">
+                    <span class="type">clothing</span>
+                    <span class="name">Ninja Shihoute</span>
+                    <span class="price">$35,00</span>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <div class="product-image">
+                    <a href="#">
+                      <img
+                        src="./assets/images/hoodie_5_front-494x593.jpg"
+                        class="img-front"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/hoodie_5_back-494x593.jpg"
+                        class="img-back"
+                        alt=""
+                      />
+                      <div class="quick-view">quick view</div>
+                    </a>
+                  </div>
+                  <div class="product-infor">
+                    <span class="type">clothing</span>
+                    <span class="name">Ninja Shihoute</span>
+                    <span class="price">$35,00</span>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <div class="product-image">
+                    <a href="#">
+                      <img
+                        src="./assets/images/hoodie_5_front-494x593.jpg"
+                        class="img-front"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/hoodie_5_back-494x593.jpg"
+                        class="img-back"
+                        alt=""
+                      />
+                      <div class="quick-view">quick view</div>
+                    </a>
+                  </div>
+                  <div class="product-infor">
+                    <span class="type">clothing</span>
+                    <span class="name">Ninja Shihoute</span>
+                    <span class="price">$35,00</span>
+                  </div>
+                </div>
+                <div class="product-card">
+                  <div class="product-image">
+                    <a href="#">
+                      <img
+                        src="./assets/images/hoodie_5_front-494x593.jpg"
+                        class="img-front"
+                        alt=""
+                      />
+                      <img
+                        src="./assets/images/hoodie_5_back-494x593.jpg"
+                        class="img-back"
+                        alt=""
+                      />
+                      <div class="quick-view">quick view</div>
+                    </a>
+                  </div>
+                  <div class="product-infor">
+                    <span class="type">clothing</span>
+                    <span class="name">Ninja Shihoute</span>
+                    <span class="price">$35,00</span>
+                  </div>
+                </div>
+              </div>
+
+              <button aria-label="Previous" class="glider-prev">«</button>
+              <button aria-label="Next" class="glider-next">»</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider-full"></div>
+      <div class="container" style="padding-top: 30px">
+        <div class="row products-wrapper">
+          <div class="widge-wrapper col">
+            <span class="title">lastest</span>
+            <div class="divider"></div>
+            <div class="products-view">
+              <div class="item">
+                <div class="img">
+                  <img
+                    src="./assets/images/602782-0001_1-100x100.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <p class="name">Pima SS O-neck NOOS Selected Homme</p>
+                  <p class="price">$29,00</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img
+                    src="./assets/images/602782-0001_1-100x100.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <p class="name">Pima SS O-neck NOOS Selected Homme</p>
+                  <p class="price">$29,00</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img
+                    src="./assets/images/602782-0001_1-100x100.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <p class="name">Pima SS O-neck NOOS Selected Homme</p>
+                  <p class="price">$29,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="widge-wrapper col">
+            <span class="title">best selling</span>
+            <div class="divider"></div>
+            <div class="products-view">
+              <div class="item">
+                <div class="img">
+                  <img
+                    src="./assets/images/602782-0001_1-100x100.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <p class="name">Pima SS O-neck NOOS Selected Homme</p>
+                  <p class="price">$29,00</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img
+                    src="./assets/images/602782-0001_1-100x100.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <p class="name">Pima SS O-neck NOOS Selected Homme</p>
+                  <p class="price">$29,00</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img
+                    src="./assets/images/602782-0001_1-100x100.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <p class="name">Pima SS O-neck NOOS Selected Homme</p>
+                  <p class="price">$29,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="widge-wrapper col">
+            <span class="title">featured</span>
+            <div class="divider"></div>
+            <div class="products-view">
+              <div class="item">
+                <div class="img">
+                  <img
+                    src="./assets/images/602782-0001_1-100x100.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <p class="name">Pima SS O-neck NOOS Selected Homme</p>
+                  <p class="price">$29,00</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img
+                    src="./assets/images/602782-0001_1-100x100.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <p class="name">Pima SS O-neck NOOS Selected Homme</p>
+                  <p class="price">$29,00</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img
+                    src="./assets/images/602782-0001_1-100x100.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <p class="name">Pima SS O-neck NOOS Selected Homme</p>
+                  <p class="price">$29,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="widge-wrapper col">
+            <span class="title">top rate products</span>
+            <div class="divider"></div>
+            <div class="products-view">
+              <div class="item">
+                <div class="img">
+                  <img
+                    src="./assets/images/602782-0001_1-100x100.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <p class="name">Pima SS O-neck NOOS Selected Homme</p>
+                  <p class="price">$29,00</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img
+                    src="./assets/images/602782-0001_1-100x100.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <p class="name">Pima SS O-neck NOOS Selected Homme</p>
+                  <p class="price">$29,00</p>
+                </div>
+              </div>
+              <div class="item">
+                <div class="img">
+                  <img
+                    src="./assets/images/602782-0001_1-100x100.jpeg"
+                    alt=""
+                  />
+                </div>
+                <div class="content">
+                  <p class="name">Pima SS O-neck NOOS Selected Homme</p>
+                  <p class="price">$29,00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class="row footer-wrapper" style="padding: 30px 0">
+          <div class="widge-wrapper widge-footer col">
+            <span class="title">best selling</span>
+            <div class="divider"></div>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+              erat volutpat.
+            </p>
+            <div class="social-icons">
+              <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+              <a href="#"><i class="fa-regular fa-envelope"></i></a>
+              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </div>
+          </div>
+          <div class="widge-wrapper widge-footer col">
+            <span class="title">lastest news</span>
+            <div class="divider"></div>
+            <div class="recent-post">
+              <ul>
+                <li>
+                  <div class="recent-blog-post">
+                    <div class="post-date">
+                      <span class="post-day">19</span
+                      ><span class="post-month">Nov</span>
+                    </div>
+                    <div class="post-title">Welcome to flatsome</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="recent-blog-post">
+                    <div class="post-date">
+                      <span class="post-day">19</span
+                      ><span class="post-month">Nov</span>
+                    </div>
+                    <div class="post-title">Welcome to flatsome</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="recent-blog-post">
+                    <div class="post-date">
+                      <span class="post-day">19</span
+                      ><span class="post-month">Nov</span>
+                    </div>
+                    <div class="post-title">Welcome to flatsome</div>
+                  </div>
+                </li>
+                <li>
+                  <div class="recent-blog-post">
+                    <div class="post-date">
+                      <span class="post-day">19</span
+                      ><span class="post-month">Nov</span>
+                    </div>
+                    <div class="post-title">Welcome to flatsome</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="widge-wrapper widge-footer col">
+            <span class="title">tags</span>
+            <div class="divider"></div>
+            <div class="tags-list">
+              <a href="#">bags</a>
+              <a href="#">classics</a>
+              <a href="#">Converese</a>
+              <a href="#">Diesel</a>
+              <a href="#">fit</a>
+              <a href="#">bags</a>
+              <a href="#">classics</a>
+              <a href="#">Converese</a>
+              <a href="#">Diesel</a>
+              <a href="#">fit</a>
+              <a href="#">bags</a>
+              <a href="#">classics</a>
+              <a href="#">Converese</a>
+              <a href="#">Diesel</a>
+              <a href="#">fit</a>
+              <a href="#">bags</a>
+              <a href="#">classics</a>
+              <a href="#">Converese</a>
+              <a href="#">Diesel</a>
+              <a href="#">fit</a>
+              <a href="#">bags</a>
+              <a href="#">classics</a>
+              <a href="#">Converese</a>
+              <a href="#">Diesel</a>
+              <a href="#">fit</a>
+              <a href="#">bags</a>
+              <a href="#">classics</a>
+              <a href="#">Converese</a>
+              <a href="#">Diesel</a>
+              <a href="#">fit</a>
+            </div>
+          </div>
+          <div class="widge-wrapper widge-footer col">
+            <span class="title">signup for newsletter</span>
+            <div class="divider"></div>
+            <p>
+              Signup to get news about Flatsome & WooCommerce. We don't spam!
+            </p>
+            <div class="form-signup">
+              <input type="text" placeholder="Your Email (required)" />
+              <button>sign up</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <div class="copyright-wrapper">
+          <div class="about">
+            <ul>
+              <li>about</li>
+              <li>our store</li>
+              <li>blog</li>
+              <li>contact</li>
+              <li>faq</li>
+            </ul>
+            <p>Copyright 2023 @ <span>Flatsome theme</span></p>
+          </div>
+          <div class="payment">
+            <ul>
+              <li><i class="fa-brands fa-cc-visa"></i></li>
+              <li><i class="fa-brands fa-cc-paypal"></i></li>
+              <li><i class="fa-brands fa-cc-stripe"></i></li>
+              <li><i class="fa-brands fa-cc-mastercard"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/glider.min.js"></script>
+  </body>
+</html>
+<script>
+  const header = document.querySelector(".header");
+  const navMenu = document.querySelector("#nav-control");
+  window.addEventListener("scroll", function () {
+    const currentScroll = window.pageYOffset;
+    if (currentScroll > 100 && !navMenu.checked) {
+      header.classList.add("is-sticky");
+    } else {
+      header.classList.remove("is-sticky");
+    }
+  });
+
+  function increaseValue() {
+    var value = parseInt(document.getElementById("number").value, 10);
+    value = isNaN(value) ? 0 : value;
+    value++;
+    document.getElementById("number").value = value;
+  }
+
+  function decreaseValue() {
+    var value = parseInt(document.getElementById("number").value, 10);
+    value = isNaN(value) ? 0 : value;
+    value < 1 ? (value = 1) : "";
+    value--;
+    document.getElementById("number").value = value;
+  }
+
+  function switchTab(e, tabName) {
+    var tabContents = document.getElementsByClassName("tab-content");
+    for (var i = 0; i < tabContents.length; i++) {
+      tabContents[i].classList.remove("active-tab");
+    }
+
+    var tabLinks = document.getElementsByClassName("tab-link");
+    for (var j = 0; j < tabLinks.length; j++) {
+      tabLinks[j].classList.remove("active-tab");
+      document.getElementById(tabName).classList.add("active-tab");
+      e.currentTarget.classList.add("active-tab");
+    }
+  }
+
+  new Glider(document.querySelector(".glider"), {
+    slidesToShow: 3,
+    slidesToScroll: 3,
+    draggable: true,
+    dots: ".dots",
+    arrows: {
+      prev: ".glider-prev",
+      next: ".glider-next",
+    },
+    responsive: [
+    {
+      // screens greater than >= 775px
+      breakpoint: 850,
+      settings: {
+        // Set to `auto` and provide item width to adjust to viewport
+        slidesToShow: '4',
+        slidesToScroll: '4',
+        itemWidth: 150,
+        duration: 0.25
+      }
+    },
+    {
+      // screens greater than >= 775px
+      breakpoint: 1200,
+      settings: {
+        // Set to `auto` and provide item width to adjust to viewport
+        slidesToShow: '5',
+        slidesToScroll: '5',
+        itemWidth: 150,
+        duration: 0.25
+      }
+    }
+  ]
+  });
+</script>
