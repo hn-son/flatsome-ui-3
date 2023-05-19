@@ -1189,8 +1189,17 @@ $black-color: #222222;
                 display: block;
                 .product-image, .product-info {
                     max-width: 100%;
+                    padding: 10px;
                 }
             }
+
+            .products-related {
+                .list-products {
+                    button {
+                        display: none;
+                    }
+                }
+            } 
         }
 
         .products-wrapper {

@@ -964,6 +964,10 @@
   }
   .main .main-wrapper .product-detail .product-image, .main .main-wrapper .product-detail .product-info {
     max-width: 100%;
+    padding: 10px;
+  }
+  .main .main-wrapper .products-related .list-products button {
+    display: none;
   }
   .main .products-wrapper {
     display: block;
