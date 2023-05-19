@@ -343,8 +343,8 @@
             </div>
             <div class="header-divider"></div>
             <div class="cart-item">
-              <span>cart/ $0.00</span>
-              <span class="image-icon"><strong>0</strong></span>
+              <span>cart/ <span class="cost" id="cost">$0.00</span></span>
+              <span class="image-icon"><strong id="count-cart">0</strong></span>
             </div>
           </div>
         </div>
@@ -446,7 +446,7 @@
                 <button onclick="increaseValue()">+</button>
               </div>
               <div class="add">
-                <button>add to cart</button>
+                <button onclick="addToCart()">add to cart</button>
               </div>
             </div>
             <div class="social">
@@ -998,6 +998,11 @@
     value < 1 ? (value = 1) : "";
     value--;
     document.getElementById("number").value = value;
+  }
+
+  function addToCart() {
+    document.getElementById("cost").innerText = "$" + document.getElementById("number").value * 32
+    document.getElementById("count-cart").innerText = document.getElementById("number").value
   }
 
   function switchTab(e, tabName) {
